@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- font-awsome-cdn-link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Login Form</h1>
+      <form action="#">
+        <p>
+          <label for="name">Name</label><br />
+          <input type="text" placeholder="Name" id="name" /><br />
+          <span class="errorN"></span>
+          <i class="fa-solid" id="icon-1"></i>
+        </p>
+
+        <p>
+          <label for="email">Email</label><br />
+          <input type="email" placeholder="@email" id="email" /><br />
+          <span class="errorE"></span>
+          <i class="fa-solid" id="icon-2"></i>
+        </p>
+
+        <p>
+          <label for="password">Password</label><br />
+          <input type="password" placeholder="Password" id="password" /><br />
+          <span class="errorP"></span>
+          <i class="fa-solid" id="icon-3"></i>
+        </p>
+
+        <p>
+          <label for="number">Number</label><br />
+          <input type="text" placeholder="Numebr" id="number" /><br />
+          <span class="errorNum"></span>
+          <i class="fa-solid" id="icon-4"></i>
+        </p>
+
+        <p><input type="submit" value="Submit" id="submitBtn" /></p>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
